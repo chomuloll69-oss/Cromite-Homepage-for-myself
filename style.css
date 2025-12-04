@@ -1,0 +1,44 @@
+/* The juxel font */
+@font-face{
+src:url(fonts/juxel.ttf);
+font-family:juxel
+}
+body {
+  background-image: url('scarlet-tree.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: juxel ,'Bitcount Grid Single';
+}
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  backdrop-filter: blur(8px);
+  width: 40%;
+  height: 13vh;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  /* horizontal */
+  align-items: center;
+  /* vertical */
+  text-align: center;
+  border-radius: 10px;
+  border-color: none;
+  box-shadow: 5px 5px 10px hsla(0,0%,0%,0.502);
+  /* horizontal-offset vertical-offset blur-radius color */
+}
+.text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 2px;
+}
