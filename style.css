@@ -1,6 +1,6 @@
 /* The juxel font */
 @font-face{
-src:url(fonts/juxel.ttf);
+src:url(juxel.ttf);
 font-family:juxel;
 }
 body {
