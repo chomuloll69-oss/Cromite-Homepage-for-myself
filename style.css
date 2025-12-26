@@ -1,7 +1,7 @@
 /* The juxel font */
 @font-face{
 src:url(fonts/juxel.ttf);
-font-family:juxel
+font-family:juxel;
 }
 body {
   background-image: url('scarlet-tree.png');
